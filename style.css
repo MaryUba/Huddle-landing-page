@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:  hsl(257, 40%, 49%);
+    background-image: url(./images/bg-desktop.svg);
+    min-height: 100vh;
+}
+
+.container{
+    max-width: 80rem;
+    margin: 0 auto;
+    height: 100vh;
+
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.header-img img {
+    width: 11rem;
+    margin-bottom: 3rem;
+
+}
+
+.txt h1,p {
+    color: white;
+    margin-bottom: 2rem;
+    line-height: 1.4;
+}
+
+.txt a{
+    text-decoration: none;
+    padding: 0.8rem 4rem;
+    background-color: white;
+    border-radius: 1.5rem;
+}
